@@ -18,6 +18,13 @@
 // EXERCÍCIO 1 - Calculadora simples
 // Crie 2 variáveis com números e mostre no console
 // o resultado da soma, subtração, multiplicação e divisão.
+
+let numero1
+let numero2
+console.log(numero1 - numero2)
+console.log(numero1 + numero2)
+console.log(numero1 * numero2)
+console.log(numero1 / numero2)
 // ------------------------------------------------------------
 
 

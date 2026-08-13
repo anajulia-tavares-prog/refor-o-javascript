@@ -34,6 +34,8 @@ console.log(numero1 / numero2)
 // Crie uma variável com um valor em Celsius.
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
+let celsius = 25;
+console.log(celsius * 9 / 5 + 32);
 // ------------------------------------------------------------
 
 

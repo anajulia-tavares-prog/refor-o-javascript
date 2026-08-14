@@ -36,6 +36,9 @@ console.log(numero1 / numero2)
 // Fórmula: F = C * 9/5 + 32
 let celsius = 25;
 console.log(celsius * 9 / 5 + 32);
+
+console.log(fahrenheit);
+
 // ------------------------------------------------------------
 
 
@@ -91,7 +94,13 @@ if (media >= 7) {
 // Se não, mostre "Menor de idade".
 // ------------------------------------------------------------
 
+let idade = 20;
 
+if (idade >= 18) {
+  console.log("Maior de idade");
+} else {
+  console.log("Menor de idade");
+}
 
 
 // EXERCÍCIO 6 - Calculadora de IMC
@@ -102,6 +111,23 @@ if (media >= 7) {
 //   18.5 até 24.9  = "Peso normal"
 //   25 até 29.9    = "Sobrepeso"
 //   30 ou mais     = "Obesidade"
+
+let peso = 50;
+let altura = 1.50
+
+let imc = peso / (altura * altura);
+
+console.log("IMC:", imc.toFixed(2));
+
+if (imc < 18.5) {
+  console.log("Abaixo do peso");
+} else if (imc < 25) {
+  console.log("Peso normal");
+} else if (imc < 30) {
+  console.log("Sobrepeso");
+} else {
+  console.log("Obesidade");
+}
 // ------------------------------------------------------------
 
 

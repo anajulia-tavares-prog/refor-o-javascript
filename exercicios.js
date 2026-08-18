@@ -35,7 +35,7 @@ console.log(numero1 / numero2)
 // Converta para Fahrenheit e mostre no console.
 // Fórmula: F = C * 9/5 + 32
 let celsius = 25;
-console.log(celsius * 9 / 5 + 32);
+let fahrenheit = console.log(celsius * 9 / 5 + 32);
 
 console.log(fahrenheit);
 
@@ -140,6 +140,25 @@ if (imc < 18.5) {
 //   let opcoes = ['pedra', 'papel', 'tesoura']
 //   let computador = opcoes[Math.floor(Math.random() * 3)]
 // Compare as jogadas e mostre quem ganhou.
+let jogador = "pedra";
+
+let opcoes = ["pedra", "papel", "tesoura"];
+let computador = opcoes[Math.floor(Math.random() * 3)];
+
+console.log("Sua jogada:", jogador);
+console.log("Jogada do computador:", computador);
+
+if (jogador === computador) {
+    console.log("Empate!");
+} else if (
+    (jogador === "pedra" && computador === "tesoura") ||
+    (jogador === "papel" && computador === "pedra") ||
+    (jogador === "tesoura" && computador === "papel")
+) {
+    console.log("Você ganhou!");
+} else {
+    console.log("O computador ganhou!");
+}
 // ------------------------------------------------------------
 
 
@@ -153,7 +172,24 @@ if (imc < 18.5) {
 //   6 e 5    = "C"
 //   4 e 3    = "D"
 //   2, 1, 0  = "F"
-// ------------------------------------------------------------
+
+let nota = 5
+
+if (nota == 10 || nota == 9){
+  console.log("A")
+}
+else if (nota == 8 || nota == 7){
+  console.log("B") 
+}
+else if (nota == 6 || nota == 5){
+  console.log("C") 
+}
+else if (nota == 4 || nota == 3){
+  console.log("D")
+}else{
+  console.log("F")
+}
+
 
 
 
